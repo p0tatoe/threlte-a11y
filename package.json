@@ -1,5 +1,5 @@
 {
-	"name": "monolake-simulation",
+	"name": "@p0tatoe/threlte-a11y",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
