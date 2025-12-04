@@ -1,6 +1,27 @@
 {
 	"name": "@p0tatoe/threlte-a11y",
 	"version": "0.0.1",
+	"description": "Provide accessibility support to Threlte such as focus indication, keyboard tab index, and screen reader support",
+
+	"license": "MIT",
+
+	"keywords": [
+		"a11y",
+		"accessibility",
+		"three",
+		"svelte",
+		"threlte"
+  	],
+
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/p0tatoe/threlte-a11y.git"
+  	},
+
+	"bugs": {
+    	"url": "https://github.com/p0tatoe/threlte-a11y/issues"
+  	},
+
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -41,9 +62,6 @@
 		"typescript": "^5.9.3",
 		"vite": "^7.2.2"
 	},
-	"keywords": [
-		"svelte"
-	],
 	"dependencies": {
 		"@threlte/core": "^8.3.0",
 		"@threlte/extras": "^9.7.1",

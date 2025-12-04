@@ -2,12 +2,12 @@
 
 Screen reader accessibility components for [Threlte](https://threlte.xyz/), the Svelte framework for Three.js.
 
-This library provides a set of components to help map 3D objects to HTML elements, making 3D scenes accessible to screen readers and keyboard navigation.
+This library provides accessibility support to Threlte such as focus indication, keyboard tab index, and screen reader support. Inspired by [pmndrs/react-three-a11y](https://github.com/pmndrs/react-three-a11y)
 
 ## Installation
 
 ```bash
-npm install threlte-a11y
+npm i @p0tatoe/threlte-a11y
 ```
 
 ## Usage
