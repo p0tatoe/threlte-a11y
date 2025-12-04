@@ -2,7 +2,7 @@
 
 Screen reader accessibility components for [Threlte](https://threlte.xyz/), the Svelte framework for Three.js.
 
-This library provides a set of accessible components that map 3D objects to HTML elements, making your 3D scenes accessible to screen readers and keyboard navigation.
+This library provides a set of components to help map 3D objects to HTML elements, making 3D scenes accessible to screen readers and keyboard navigation.
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm install threlte-a11y
 
 ## Usage
 
-Wrap your 3D objects with the appropriate `A11y` component. These components handle focus, hover, and click events, and sync them with an invisible HTML overlay.
+Wrap your 3D objects with the appropriate `A11y` component. These components handle focus, hover, and click events.
 
 ### A11yButton
 
